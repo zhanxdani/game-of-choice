@@ -14,33 +14,29 @@ struct StoryBrain {
        
        let stories = [
            Story(
-            title: "Your car has blown a tire on a winding road in the middle of nowhere with no cell phone reception. You decide to hitchhike. A rusty pickup truck rumbles to a stop next to you. A man with a wide brimmed hat with soulless eyes opens the passenger door for you and asks: 'Need a ride, boy?'.",
-            choice1: "I'll hop in. Thanks for the help!", choice2: "Better ask him if he's a murderer first.", choice1Destination: 2, choice2Destination: 1
+            title: "English psychologist David Lewis claims that it is safe only for women, while for men it can become a source of dangerous diseases. Studies have shown that only a quarter of women had any minor abnormalities, such as heartbeat. Men, on the contrary, reacted extremely negatively to this: their pulse quickened, arrhythmia began to appear, and blood pressure jumped sharply. Call it an English word that has recently penetrated into the Russian language.",
+            choice1: "Shopping", choice2: "Purchases", choice1Destination: 2, choice2Destination: 1
                     ),
                     Story(
-                        title: "He nods slowly, unfazed by the question.",
-                        choice1: "At least he's honest. I'll climb in.", choice2: "Wait, I know how to change a tire.", choice1Destination: 2, choice2Destination: 3
+                        title: "Many do not believe in its existence. However, Kant believed that any human knowledge begins with it. And they say that it brings only those who have it. Name her.",
+                        choice1: "Feeling", choice2: "Intuition", choice1Destination: 2, choice2Destination: 3
                     ),
                     Story(
-                        title: "As you begin to drive, the stranger starts talking about his relationship with his mother. He gets angrier and angrier by the minute. He asks you to open the glovebox. Inside you find a bloody knife, two severed fingers, and a cassette tape of Elton John. He reaches for the glove box.",
-                        choice1: "I love Elton John! Hand him the cassette tape.", choice2: "It's him or me! You take the knife and stab him.", choice1Destination: 5, choice2Destination: 4
+                        title: "Oddly enough, these two have a lot in common. Both have Italian roots. Their patronymics would be the same, if, of course, there were any. But their relations with Russia have developed in different ways. The first visit to Russia brought only troubles, although at first everything turned out very successfully for him. The second is not only known in Russia to everyone, young and old, in fact, here he was born. Name them both.",
+                        choice1: "Napoleon Bonaparte and Pinocchio", choice2: "Pinocchio and Dwarf", choice1Destination: 5, choice2Destination: 4
                     ),
                     Story(
-                        title: "What? Such a cop out! Did you know traffic accidents are the second leading cause of accidental death for most adult age groups?",
-                        choice1: "The", choice2: "End", choice1Destination: 0, choice2Destination: 0
+                        title: "This substance is the main component of acid rain. In gaseous form, it can cause severe burns. The consequence of this substance entering the stomach may be increased sweating, and in the case of a large dose, vomiting. In case of accidental inhalation, it can also lead to death. Name this substance.",
+                        choice1: "Ice", choice2: "H20", choice1Destination: 0, choice2Destination: 0
                     ),
            Story(
-                       title: "As you smash through the guardrail and careen towards the jagged rocks below you reflect on the dubious wisdom of stabbing someone while they are driving a car you are in.",
-                       choice1: "The", choice2: "End", choice1Destination: 0, choice2Destination: 0
+                       title: "George Orwell, explaining the choice of topic for one of his essays, wrote: This is very curious. And not only because it is one of the pillars of British civilization, but also because the best way is the subject of fierce debate. The essay provides 11 ways. What?.",
+                       choice1: "Soup brewing", choice2: "Tea brewing", choice1Destination: 0, choice2Destination: 0
                    ),
                    Story(
-                       title: "You bond with the murderer while crooning verses of 'Can you feel the love tonight'. He drops you off at the next town. Before you go he asks you if you know any good places to dump bodies. You reply: 'Try the pier.'",
-                       choice1: "The", choice2: "End", choice1Destination: 0, choice2Destination: 0
+                       title: "In Sparta, after the death of the king, two institutions were closed for 10 days. When the Persian king Xerxes learned about this custom, he declared that such a custom would be impossible in Persia, since it would deprive his subjects of two favorite activities. What were these institutions?'",
+                       choice1: "Court and market", choice2: "Store and Factory", choice1Destination: 0, choice2Destination: 0
                    ),
-           Story(
-               title: "You bond with the murderer while crooning verses of 'Can you feel the love tonight'. He drops you off at the next town. Before you go he asks you if you know any good places to dump bodies. You reply: 'Try the pier.'",
-               choice1: "The", choice2: "End", choice1Destination: 0, choice2Destination: 0
-           ),
            // Для продолжения нужно добавлять историю через запятую!
            
 
